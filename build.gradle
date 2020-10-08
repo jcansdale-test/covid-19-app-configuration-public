@@ -20,7 +20,7 @@ subprojects {
         repositories {
             maven {
                 name = "GitHubPackages"
-                url = uri("https://maven.pkg.github.com/nhsx/covid-19-app-configuration-public")
+                url = uri("https://maven.pkg.github.com/jcansdale-test/covid-19-app-configuration-public")
                 credentials {
                     username = project.findProperty("gpr.user") ?: System.getenv("USERNAME")
                     password = project.findProperty("gpr.key") ?: System.getenv("TOKEN")
